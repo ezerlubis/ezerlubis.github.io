@@ -169,8 +169,8 @@ const capabilities = [
 const contactOptions: ContactOption[] = [
   {
     title: "Email",
-    desc: "Project discussion, collaboration, or internship opportunity.",
-    href: "mailto:silubis.ezer@gmail.com?subject=Hello%20Ebenezer%20Lubis&body=Hello%20Ebenezer%2C%20I%20would%20like%20to%20discuss%20a%20project.",
+    desc: "Open Gmail compose for project discussion or collaboration.",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=silubis.ezer@gmail.com&su=Hello%20Ebenezer%20Lubis&body=Hello%20Ebenezer%2C%20I%20would%20like%20to%20discuss%20a%20project.",
     icon: <FaEnvelope />,
   },
   {
@@ -374,7 +374,11 @@ export default function Home() {
           </div>
         </div>
 
-        <a href="#about" className={styles.scrollCue} aria-label="Scroll to about">
+        <a
+          href="#about"
+          className={styles.scrollCue}
+          aria-label="Scroll to about"
+        >
           <FaArrowDown />
         </a>
       </section>
@@ -382,7 +386,9 @@ export default function Home() {
       <section id="about" className={styles.about}>
         <div className={styles.sectionIntro}>
           <span className={styles.sectionLabel}>About</span>
-          <h2>Not just pages. I like building systems that explain themselves.</h2>
+          <h2>
+            Not just pages. I like building systems that explain themselves.
+          </h2>
           <p>
             My work sits between product thinking and implementation: clear
             layouts, usable flows, backend logic, and data that supports the
@@ -412,7 +418,9 @@ export default function Home() {
               <div>
                 <span>03</span>
                 <strong>Connect The Whole Flow</strong>
-                <p>Interfaces, APIs, and databases should feel like one system.</p>
+                <p>
+                  Interfaces, APIs, and databases should feel like one system.
+                </p>
               </div>
             </div>
           </div>
@@ -429,7 +437,9 @@ export default function Home() {
             </div>
             <div className={styles.profileCaption}>
               <span>Current Direction</span>
-              <strong>Modern web apps, backend integration, and AI-assisted ideas.</strong>
+              <strong>
+                Modern web apps, backend integration, and AI-assisted ideas.
+              </strong>
             </div>
           </div>
         </div>
@@ -438,7 +448,9 @@ export default function Home() {
       <section className={styles.capabilities}>
         <div className={styles.sectionIntro}>
           <span className={styles.sectionLabel}>Capabilities</span>
-          <h2>The tools are familiar. The execution should not feel generic.</h2>
+          <h2>
+            The tools are familiar. The execution should not feel generic.
+          </h2>
         </div>
 
         <div className={styles.capabilityGrid}>
@@ -530,12 +542,18 @@ export default function Home() {
           <span className={styles.ctaIcon}>
             <FaRocket />
           </span>
-          <h2>Let&apos;s build something that feels designed, coded, and alive.</h2>
+          <h2>
+            Let&apos;s build something that feels designed, coded, and alive.
+          </h2>
           <p>
             I am open to discussing web projects, application development, UI
             slicing, backend integration, and technology collaborations.
           </p>
-          <button className={styles.ctaButton} type="button" onClick={openContact}>
+          <button
+            className={styles.ctaButton}
+            type="button"
+            onClick={openContact}
+          >
             Start A Conversation
           </button>
         </div>
