@@ -9,13 +9,13 @@ import {
   FaDatabase,
   FaEnvelope,
   FaExternalLinkAlt,
-  FaFacebookF,
   FaGithub,
   FaLaptopCode,
   FaMobileAlt,
   FaRocket,
   FaServer,
   FaTimes,
+  FaWhatsapp,
 } from "react-icons/fa";
 import styles from "./page.module.css";
 
@@ -180,10 +180,10 @@ const contactOptions: ContactOption[] = [
     icon: <FaGithub />,
   },
   {
-    title: "Facebook",
-    desc: "A casual place to connect and continue the conversation.",
-    href: "https://www.facebook.com/profile.php?id=100027709835010",
-    icon: <FaFacebookF />,
+    title: "WhatsApp",
+    desc: "Send a direct message for faster project discussion.",
+    href: "https://wa.me/6282294694832?text=Hello%20Ebenezer%2C%20I%20am%20interested%20in%20your%20portfolio.",
+    icon: <FaWhatsapp />,
   },
 ];
 
