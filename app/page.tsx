@@ -19,6 +19,8 @@ import {
 } from "react-icons/fa";
 import styles from "./page.module.css";
 
+const heroImage = "/hero-20260508.jpeg";
+
 type Project = {
   title: string;
   role: string;
@@ -298,7 +300,7 @@ export default function Home() {
       <section id="home" className={styles.hero}>
         <div className={styles.heroMedia} aria-hidden="true">
           <Image
-            src="/hero.jpeg"
+            src={heroImage}
             alt=""
             fill
             priority
@@ -428,7 +430,7 @@ export default function Home() {
           <div className={styles.profilePlate}>
             <div className={styles.profileImageWrap}>
               <Image
-                src="/hero.jpeg"
+                src={heroImage}
                 alt="Ebenezer Lubis"
                 fill
                 sizes="(max-width: 768px) 100vw, 420px"

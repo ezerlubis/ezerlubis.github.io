@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "Ebenezer Lubis | Web Developer Portfolio",
     description:
       "Selected web, UI, backend, database, and AI projects by Ebenezer Lubis.",
-    images: ["/hero.jpeg"],
+    images: ["/hero-20260508.jpeg"],
   },
 };
 
