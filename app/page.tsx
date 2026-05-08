@@ -313,7 +313,6 @@ export default function Home() {
 
         <div className={styles.heroGrid}>
           <div className={styles.heroCopy}>
-            <span className={styles.heroEyebrow}>Portfolio 2026</span>
             <h1>
               Ebenezer
               <span>Lubis</span>
