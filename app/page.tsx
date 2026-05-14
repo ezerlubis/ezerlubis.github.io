@@ -50,7 +50,7 @@ const projects: Project[] = [
   {
     title: "Booking Car Wash",
     role: "Product UI Prototype",
-    year: "2026",
+    year: "2024",
     signal: "A two-device booking flow for a cleaner service experience.",
     short:
       "Web and mobile booking concept with service selection, schedule flow, order status, and payment screens.",
@@ -80,7 +80,7 @@ const projects: Project[] = [
   {
     title: "AdaResep App",
     role: "Desktop Application",
-    year: "2026",
+    year: "2025",
     signal: "A structured recipe browser made to keep cooking steps clear.",
     short:
       "A C# recipe application for browsing recipe details, ingredients, and cooking instructions.",
@@ -140,6 +140,28 @@ const projects: Project[] = [
       {
         label: "View Repository",
         url: "https://github.com/ezerlubis/Projek-AI-Deteksi-sampah-di-pantai.git",
+      },
+    ],
+  },
+  {
+    title: "PawConnect",
+    role: "Pet Adoption Platform",
+    year: "2026",
+    signal: "A responsive adoption platform for finding pets more easily.",
+    short:
+      "A web-based pet adoption platform with animal listings, detailed profiles, user login, responsive pages, and creative pet descriptions.",
+    images: [
+      {
+        src: "/project-adopsibinatangpeliharaan.png",
+        alt: "PawConnect pet adoption platform interface",
+      },
+    ],
+    desc: "PawConnect is a web-based pet adoption platform designed to help people find and adopt pets more easily, quickly, and comfortably. The website provides complete adoption pet information with photos, engaging descriptions, and search features that help users find animals based on their preferences. In this project, I focused on building a modern, responsive, and user-friendly interface so the experience feels more interactive and enjoyable. One unique feature is the use of creative and playful pet descriptions to increase user engagement with adoptable animals. The system includes animal adoption listings, detailed animal information, user login, responsive desktop and mobile design, modern interactive UI, and MySQL database integration with a Java Spring Boot backend.",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "Spring Boot", "MySQL"],
+    links: [
+      {
+        label: "View Repository",
+        url: "https://github.com/ezerlubis/pet-adoption-platform.git",
       },
     ],
   },
